@@ -1,0 +1,76 @@
+body{
+	padding-top:60px;
+}
+
+.keyword{ color:red; }
+
+table.detail-table{
+	min-width:100%;
+}
+
+img.img-thumbnail {
+    border: 2px solid black;
+    margin: 20px 0;
+}
+
+.section-title{
+	background-color: #C0C0C0;
+	color:#000066;
+	font-size:18px;
+	margin-top:20px;
+	clear:both;
+}
+
+.hidden-info{
+	display:none;
+}
+
+
+table#result-table{
+	min-width:100%;
+}
+
+table#batch-result-table{
+	min-width:100%;
+}
+
+div.panel-heading h3{
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+table#result-table td,th{
+    white-space: nowrap !important;  
+}
+
+table#batch-result-table td,th{
+    white-space: nowrap !important;  
+}
+
+table.detail-table td,th{
+    white-space: nowrap !important;  
+}
+
+
+.buttons-copy span{        
+    padding-left: 20px;     
+    background: url(../img/copy.png) left center no-repeat;     
+}   
+.buttons-excel span{        
+    padding-left: 20px;     
+    background: url(../img/excel.png) left center no-repeat;     
+}  
+.buttons-csv span{        
+    padding-left: 20px;     
+    background: url(../img/csv.png) left center no-repeat;     
+}
+
+.dataTables_wrapper div.col-md-4{padding:0;}
+/* .dataTables_wrapper div.dt-buttons{float:left;} */
+
+.tooltip-inner{
+   text-align: left !important; /*字体左对齐*/
+   max-width: 300px !important; /*修改宽度*/
+}

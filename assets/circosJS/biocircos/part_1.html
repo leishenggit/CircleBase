@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>NGCircos</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <!-- NGCircos.js, Jquery.js and D3.js import -->
+        <script src="../lib/jquery.js"></script>
+        <script src="../lib/d3.js"></script>
+        <script src="../lib/NGCircos.js"></script>
+       <!-- Prepare a <div> tag with "NGCircos" id to set the picture position your will draw in html -->
+        <div class="svg-box img-container">
+        <button class="svg-action-btn download-img" style="height: 18px;line-height: 18px;padding: 0 11px;background: #FFFFFF;border: 1px #D9D9D9 solid;border-radius: 3px;display: inline-block;font-size: 12px;outline: none;">Download png ↓</button>
+        <a href="javascript:(function () { var e = document.createElement('script');if (window.location.protocol === 'https:') { e.setAttribute('src', '../lib/svg-crowbar.js'); } else { e.setAttribute('src', '../lib/svg-crowbar.js'); } e.setAttribute('class', 'svg-crowbar'); document.body.appendChild(e); })();" class="DownButtonNormal" >Download svg ↓</a>
+      </div>  
+        <div id="NGCircos"></div>
+<style>
+    .NGCircosSNPTooltip{  
+    position: absolute;
+    width: auto;  
+    height: auto;  
+    font-family: simsun;  
+    font-size: 20px;  
+    text-align: left;  
+    border-color: #6D6D6D; 
+    border-radius: 50px;  
+    }
+    .NGCircosLINKTooltip{  
+    text-align: center; 
+    }
+    a {color: #000000;TEXT-DECORATION: none}
+a:active {background: #AFC1DC}
+.DownButtonNormal{
+  height: 18px;
+  line-height: 18px;
+  padding: 0 11px;
+  background: #FFFFFF;
+  border: 1px #D9D9D9 solid;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 12px;
+  outline: none;
+}
+</style>
