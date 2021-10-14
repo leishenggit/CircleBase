@@ -2,7 +2,7 @@
 An integrated resource and analysis platform for human eccDNAs. Also see [homepage](http://circlebase.maolab.org/)
 
 
-# scoring system
+# Scoring system
 ### Dependencies
 - bedtools 2.0 or higher [doc](http://bedtools.readthedocs.io/)
 - python 3.7 [www.python.org](https://www.python.org/)
