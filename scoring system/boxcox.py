@@ -34,7 +34,7 @@ def get_score(chromo, taxonomy, idx, idx2, idx3):
 	return res
 
 
-def get_score_1(chromo, taxonomy, idx, idx2, idx3):
+def get_score_1(chromos, taxonomy, idx, idx2, idx3):
 	# running
 	records = [line for line in taxonomy if line[idx] in chromos]
 	hits = [int(line[idx2])+1 for line in records]
@@ -52,21 +52,18 @@ def get_score_1(chromo, taxonomy, idx, idx2, idx3):
 
 
 if __name__ == "__main__":
-	## 获得参数
 	args = setArgs()
 	##get result
 	with open(args.table) as f: taxonomy = [l.strip().split('\t') for l in f]
 	if args.head: del taxonomy[0]
 	idx, idx2, idx3 = args.chromosome - 1, args.hits - 1, args.ecc - 1
-	#print(idx, idx2, idx3)
-	#chromos = set([line[idx] for line in taxonomy])
 	chromos = ['chr'+str(i) for i in range(1,23)]
 	chromos.extend(['chrX', 'chrY'])
 	if args.by_chr:
 		p = Pool()
 		multi_res = [p.apply_async(get_score, args = (chromo, taxonomy, idx, idx2, idx3)) for chromo in chromos]
-		p.close() # 关闭进程池
-		p.join() # 主进程等待所有进程执行完毕
+		p.close()
+		p.join()
 		#summarise score
 		with open(args.out_f, 'w') as f:
 			for res in multi_res:
