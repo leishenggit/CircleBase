@@ -2,7 +2,7 @@
 An integrated resource and analysis platform for human eccDNAs. Also see [homepage](http://circlebase.maolab.org/)
 
 
-# Score system
+# scoring system
 ### Dependencies
 - bedtools 2.0 or higher [doc](http://bedtools.readthedocs.io/)
 - python 3.7 [www.python.org](https://www.python.org/)
@@ -22,7 +22,7 @@ tips: Using anaconda is always a good choice.
 7. eccDNA_core.hg19.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/eccDNA_core.hg19.bed)
 
 ### How to run
-1. Go to the *score system* directory and set all the dependencies
+1. Go to the *scoring system* directory and set all the dependencies
 2. Download all the input files listed above 
 3. Run the *run.sh* shell script
 
@@ -36,7 +36,7 @@ tips: Using anaconda is always a good choice.
 5. Mean of the hits number for all eccDNAs at chromosome list on the second field (i.e., 𝜇 of the Gaussian distribution).
 6. Standard Deviation of the hits number for all eccDNAs at chromosome list on the second field (i.e., 𝜎 of the Gaussian distribution).
 7. Probability greater than the hits number in the corresponding Gaussian  distribution.
-8. The score for the eccDNA (i.e., the base 10 logarithm of the Probability).
+8. The score for the eccDNA (i.e., negative of the base 10 logarithm of the Probability).
 - *.nor files include normalized score of each category. The first 8 columns are same as *.score files, column 9 is the Z-score of the regulatory category and column 10 is the normalized score.
  
 - final.score.txt file is the final result we want. Here are the fields:
