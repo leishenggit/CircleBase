@@ -24,7 +24,7 @@ def get_score(chromo, taxonomy, idx, idx2, idx3):
 	y, lambda0 = stats.boxcox(hits)
 	u = np.mean(y)
 	sd = np.std(y)
-	print("染色体: %s, 记录数: %d, 参数lambda: %f, 正态分布均值: %f, 正态分布标准差: %f" % (chromo, len(records), lambda0, u,sd))
+	print("chromosome: %s, records: %d, lambda0: %f, mean: %f, sd: %f" % (chromo, len(records), lambda0, u,sd))
 	res = []
 	for i in range(len(records)):
 		k = y[i]
@@ -41,7 +41,7 @@ def get_score_1(chromo, taxonomy, idx, idx2, idx3):
 	y, lambda0 = stats.boxcox(hits)
 	u = np.mean(y)
 	sd = np.std(y)
-	print("染色体: %s, 记录数: %d, 参数lambda: %f, 正态分布均值: %f, 正态分布标准差: %f" % ('all', len(records), lambda0, u,sd))
+	print("chromosome: %s, records: %d, lambda0: %f, mean: %f, sd: %f" % ('all', len(records), lambda0, u,sd))
 	res = []
 	for i in range(len(records)):
 		k = y[i]

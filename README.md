@@ -8,7 +8,7 @@ An integrated resource and analysis platform for human eccDNAs. Also see [homepa
 - python 3.7 [www.python.org](https://www.python.org/)
 - numpy [www.numpy.org](http://www.numpy.org/)
 - scipy [www.scipy.org](https://www.scipy.org/)
-- other common packages such as *multiprocessing* and *argparse*
+- other common packages: *multiprocessing* and *argparse*
 
 tips: Using anaconda is always a good choice.
 
