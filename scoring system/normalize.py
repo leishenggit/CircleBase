@@ -7,7 +7,6 @@ from scipy import stats
 def normalize(a):
 	return stats.zscore(a)
 
-# 定义sigmoid函数
 def sigmoid(z):
 	return(1 / (1 + np.exp(-z)))
 
@@ -22,7 +21,6 @@ def setArgs():
 
 
 if __name__ == "__main__":
-	## 获得参数
 	args = setArgs()
 	with open(args.table) as f: taxonomy = [l.strip().split('\t') for l in f]
 	if args.head: del taxonomy[0]
