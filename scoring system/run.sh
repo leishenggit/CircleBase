@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 #Step-1: get the number of annotated hits (records) for each eccDNA in each regulatory category
 for f in Chromatin_access.bed  Chromatin_interaction.bed  Epigenetic_regulation.bed  Genetic_variant.bed  Regulatory_elements.bed  Targeting_genes.bed
