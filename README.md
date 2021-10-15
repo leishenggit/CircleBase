@@ -10,7 +10,7 @@ An integrated resource and analysis platform for human eccDNAs. Also see [homepa
 - scipy [www.scipy.org](https://www.scipy.org/)
 - other common packages: *multiprocessing* and *argparse*
 
-tips: Using anaconda is always a good choice.
+tips: Anaconda is always a good choice to install the dependencies.
 
 ### Input files (bed file for six regulatory categories and eccDNAs)
 1. Chromatin_access.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Chromatin_access.bed)
