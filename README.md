@@ -13,13 +13,13 @@ An integrated resource and analysis platform for human eccDNAs. Also see [homepa
 tips: Anaconda is always a good choice to install the dependencies.
 
 ### Input files (bed file for six regulatory categories and eccDNAs)
-1. Chromatin_access.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Chromatin_access.bed)
-2. Chromatin_interaction.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Chromatin_interaction.bed)
-3. Epigenetic_regulation.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Epigenetic_regulation.bed)
-4. Genetic_variant.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Genetic_variant.bed)
-5. Regulatory_elements.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Regulatory_elements.bed)
-6. Targeting_genes.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Targeting_genes.bed)
-7. eccDNA_core.hg19.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/eccDNA_core.hg19.bed)
+1. Chromatin_access.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Chromatin_access.bed.gz)
+2. Chromatin_interaction.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Chromatin_interaction.bed.gz)
+3. Epigenetic_regulation.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Epigenetic_regulation.bed.gz)
+4. Genetic_variant.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Genetic_variant.bed.gz)
+5. Regulatory_elements.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Regulatory_elements.bed.gz)
+6. Targeting_genes.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/Targeting_genes.bed.gz)
+7. eccDNA_core.hg19.bed [download](http://159.226.67.237/sun/oncobase/assets/data/download/eccDNA_core.hg19.bed.gz)
 
 ### How to run
 1. Go to the *scoring system* directory and set all the dependencies
