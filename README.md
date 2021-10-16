@@ -23,7 +23,7 @@ tips: Anaconda is always a good choice to install the dependencies.
 
 ### How to run
 1. Go to the *scoring system* directory and set all the dependencies
-2. Download all the input files listed above 
+2. Download all the input files listed above and decompress them
 3. Run the *run.sh* shell script
 
 ### Output
