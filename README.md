@@ -43,5 +43,5 @@ tips: Anaconda is always a good choice to install the dependencies.
 1. eccDNA id.
 2. Average of normalized scores for all six regulatory categories.
 
-You can download all output [here](http://circlebase.maolab.org/assets/download/score_system_result.tar.gz)
+You can download all output [here](http://circlebase.beyondthe.top:580/assets/download/score_system_result.tar.gz)
 
